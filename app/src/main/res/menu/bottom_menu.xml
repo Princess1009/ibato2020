@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:state_checked="true"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/nav_home"
+        android:state_checked="false"/>
+
+    <item
+        android:id="@+id/nav_2"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:state_checked="false"/>
+
+    <item
+        android:id="@+id/nav_aboutus"
+        android:icon="@drawable/logo_no_background"
+        android:title="@string/about"
+        android:state_checked="false"/>
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account"
+        android:title="@string/nav_me"
+        android:state_checked="false"/>
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_logout"-->
+    <!--        android:title="@string/logout"-->
+    <!--        app:showAsAction="never"/>-->
+</menu>
